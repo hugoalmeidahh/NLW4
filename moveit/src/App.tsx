@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from './components/button';
+import { Home } from './Home';
 
 function App() {
   return (
@@ -10,6 +11,10 @@ function App() {
       <Button color="red">
         Botao 1
       </Button>
+
+      <br />
+
+      <Home />
 
     </div>
   );
